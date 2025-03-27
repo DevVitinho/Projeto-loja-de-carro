@@ -1,0 +1,37 @@
+/* Alinha o header e os carros para o canto esquerdo */
+.header-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinhado à esquerda */
+}
+
+.car-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinha à esquerda */
+    margin-bottom: 20px;
+}
+
+.car-container img {
+    width: 250px; /* Ajusta o tamanho das imagens */
+    height: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/* Botões com efeito de brilho */
+.car-button, .service-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.car-button:hover, .service-button:hover {
+    background-color: #cc5500;
+    box-shadow: 0px 0px 10px rgba(255, 102, 0, 0.8);
+}
